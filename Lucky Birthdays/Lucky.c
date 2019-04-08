@@ -18,7 +18,7 @@ void makeReadable(int days, Birth* Ghana);
 
 int main(void){
     int y=year;
-    printf("%d년 운좋은 생일 순위\n",y);
+    printf("%d년 운 좋은 생일 순위\n",y);
     int days[366];
     int num=sizeof(days)/sizeof(int);
     for(int i=0;i<num;i++)
