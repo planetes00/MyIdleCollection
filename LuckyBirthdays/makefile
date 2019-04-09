@@ -1,16 +1,11 @@
 CC = gcc
+TARGET = Lucky
+OBJECTS =  Lucky.o makeReadable.o randomize.o
 
-Lucky : Lucky.o makeReadable.o randomize.o
-	gcc -o Lucky Lucky.o makeReadable.o randomize.o
+all : $(TARGET)
 
-makeReadable.o : makeReadable.c
-	gcc -c -o makeReadable.o makeReadable.c
-
-randomize.o : randomize.c
-	gcc -c -o randomize.o randomize.c
-
-Lucky.o : Lucky.c
-	gcc -c -o Lucky.o Lucky.c
+$(TARGET) : $(OBJECTS)
+	$(CC) -o $@ $^
 
 clean :
 	rm *.o Lucky
