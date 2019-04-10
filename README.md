@@ -1,2 +1,2 @@
 # MyIdleCollection
-놀이터.
+놀이터
