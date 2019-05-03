@@ -1,6 +1,6 @@
-# Lucky Birthdays Extends.1
-* 처음에 만든 운 좋은 생일 리스트를 헤더파일 만들고 makefile을 만든 버전
-* 공부 핑계로 노는 게 제일 재밌엉
-* 파일 이름에 띄어쓰기를 해놔서 바꿈. 따옴표 치기 귀찮아
+# Lucky Birthdays Extends.2
+* 입력된 생일을 1위로 만드는 운 좋은 생일 리스트
+
++ 생일 decoder
 ----
 ### ♟️
